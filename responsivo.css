@@ -1,0 +1,60 @@
+@media (max-width: 768px) {
+    .main-header .container {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .main-nav {
+        margin-top: 20px;
+    }
+
+    .main-nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .therapists-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .footer-social,
+    .footer-info {
+        width: 100%;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    
+    .footer-info {
+        text-align: left;
+    }
+}
+
+@media (max-width: 480px) {
+    .therapists-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .highlights-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .highlights-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .massage-gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .massage-gallery {
+        grid-template-columns: 1fr;
+    }
+}
