@@ -370,3 +370,86 @@ body {
 .footer-info p {
     margin: 5px 0;
 }
+
+/* --- Seção de Contato --- */
+.contact-section {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 40px auto 20px auto;
+  text-align: left;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: var(--primary-purple);
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid var(--primary-purple);
+  background-color: transparent;
+  color: var(--text-color);
+  border-radius: 8px;
+  font-size: 1rem;
+  box-sizing: border-box; /* Para garantir que o padding não aumente a largura total */
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--accent-pink);
+}
+
+.btn-send {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: var(--primary-purple);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-send:hover {
+  background-color: var(--accent-pink);
+}
+
+.other-contacts {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.other-contacts h4 {
+  color: var(--primary-purple);
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+.other-contacts .social-links a {
+  display: block;
+  margin: 10px 0;
+  color: var(--text-color);
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.other-contacts .social-links a:hover {
+  color: var(--primary-purple);
+}
