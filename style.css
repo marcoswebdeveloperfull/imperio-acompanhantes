@@ -371,7 +371,6 @@ body {
     margin: 5px 0;
 }
 
-/* --- Seção de Contato --- */
 .contact-section {
   padding: 40px 0;
   text-align: center;
@@ -403,7 +402,7 @@ body {
   color: var(--text-color);
   border-radius: 8px;
   font-size: 1rem;
-  box-sizing: border-box; /* Para garantir que o padding não aumente a largura total */
+  box-sizing: border-box;
 }
 
 .form-group input:focus,
@@ -452,4 +451,8 @@ body {
 
 .other-contacts .social-links a:hover {
   color: var(--primary-purple);
+}
+
+.fas.fa-bars.menu-icon {
+    display: none;
 }

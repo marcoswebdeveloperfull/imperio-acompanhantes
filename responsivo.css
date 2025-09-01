@@ -1,65 +1,9 @@
 @media (max-width: 768px) {
-    .main-header .container {
-        flex-direction: column;
-        text-align: center;
-    }
-    
-    .main-nav {
-        margin-top: 20px;
-    }
+  .main-header .container {
+    flex-direction: column;
+    text-align: center;
+  }
 
-    .main-nav ul {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .therapists-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-    
-    .footer-social,
-    .footer-info {
-        width: 100%;
-        text-align: left;
-        margin-bottom: 20px;
-    }
-    
-    .footer-info {
-        text-align: left;
-    }
-}
-
-@media (max-width: 480px) {
-    .therapists-grid {
-        grid-template-columns: 1fr;
-    }
-}
-
-@media (max-width: 768px) {
-    .highlights-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (max-width: 480px) {
-    .highlights-grid {
-        grid-template-columns: 1fr;
-    }
-}
-
-@media (max-width: 768px) {
-    .massage-gallery {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (max-width: 480px) {
-    .massage-gallery {
-        grid-template-columns: 1fr;
-    }
-}
-
-@media (max-width: 768px) {
   .main-nav {
     display: none;
     position: absolute;
@@ -68,6 +12,7 @@
     width: 100%;
     background-color: #1a1a1a;
     z-index: 1000;
+    margin-top: 10px;
   }
 
   .main-nav.open {
@@ -80,6 +25,7 @@
     margin: 0;
     display: flex;
     flex-direction: column;
+    gap: 10px;
   }
 
   .main-nav ul li {
@@ -111,12 +57,54 @@
     background-color: rgba(255, 255, 255, 0.1);
   }
 
-  .main-nav {
-    position: static;
-  }
-
   .menu-icon {
     display: block;
     cursor: pointer;
+  }
+
+  .fas.fa-bars.menu-icon {
+    display: block;
+  }
+    
+  .highlights-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .massage-gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .therapists-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+    
+  .footer-social,
+  .footer-info {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+    
+  .footer-info {
+    text-align: left;
+  }
+}
+
+@media (max-width: 480px) {
+  
+  .fas.fa-bars.menu-icon {
+    display: block;
+  }
+
+  .highlights-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .massage-gallery {
+    grid-template-columns: 1fr;
+  }
+  
+  .therapists-grid {
+    grid-template-columns: 1fr;
   }
 }
