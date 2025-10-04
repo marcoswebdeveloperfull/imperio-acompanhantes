@@ -100,6 +100,16 @@ main section {
 
 /* Cards de perfil e terapeutas */
 
+.profile-section .container {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.profile-card {
+  min-width: 250px;
+}
+
 .profile-card,
 .therapist-card {
   position: relative;
@@ -205,8 +215,28 @@ main section {
 }
 
 .details-info {
-  font-style: italic;
-  color: #ccc;
+  text-align: left;
+  flex-grow: 1;
+  font-style: normal;
+  color: #e0e0e0;
+}
+
+.details-info h3,
+.details-info .phone-number,
+.details-info .location,
+.details-info .description {
+  text-align: left;
+  margin: 5px 0;
+}
+
+.details-info h3 {
+  margin-top: 0;
+  font-size: 1.8em;
+}
+
+.details-info .description {
+  margin-top: 20px;
+  line-height: 1.6;
 }
 
 .phone-number {
