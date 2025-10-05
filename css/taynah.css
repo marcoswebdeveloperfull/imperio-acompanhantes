@@ -98,7 +98,7 @@ main section {
   right: 0;
 }
 
-/* Cards de perfil e terapeutas */
+/* Cards de perfil e acompanhantes */
 
 .profile-section .container {
   display: flex;
@@ -199,7 +199,7 @@ main section {
   border-radius: 5px;
 }
 
-/* Detalhes do Terapeuta */
+/* Detalhes do acompanhantes */
 
 .therapist-details .details-card {
   display: flex;
