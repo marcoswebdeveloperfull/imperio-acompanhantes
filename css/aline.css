@@ -87,7 +87,7 @@ main section {
   top: 50%;
   width: 35%;
   height: 2px;
-  background: linear-gradient(to right, #8a2be2, #ff00ff);
+  background: linear-gradient(to right, #8a2be2, #9933ff);
 }
 
 .title-divider::before {
@@ -146,6 +146,18 @@ main section {
   display: flex;
   flex-direction: column;
   align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.contact-section .container .title-divider {
+  flex-grow: 1;
+  min-width: 1200px;
+  max-width: 1200px;
+  width: 35vw;
+  height: 2px;
 }
 
 .contact-buttons {
@@ -176,11 +188,11 @@ main section {
 }
 
 .call-btn {
-  background-color: #ff00ff;
+  background-color: #8a2be2;
 }
 
 .call-btn:hover {
-  background-color: #8a2be2;
+  background-color: #b685e4;
 }
 
 /* Galeria de fotos */
@@ -241,11 +253,10 @@ main section {
 
 .phone-number {
   font-size: 1.5em;
-  color: #ff00ff;
+  color: #8a2be2;
   font-weight: bold;
   margin: 10px 0;
 }
-
 
 /* --- Footer --- */
 footer {
@@ -281,7 +292,7 @@ footer {
 }
 
 .newsletter-form button {
-  background: #ff00ff;
+  background: #8a2be2;
   border: none;
   padding: 10px 15px;
   border-radius: 5px;

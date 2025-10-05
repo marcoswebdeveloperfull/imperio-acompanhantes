@@ -176,11 +176,11 @@ main section {
 }
 
 .call-btn {
-  background-color: #ff00ff;
+  background-color: #8a2be2;
 }
 
 .call-btn:hover {
-  background-color: #8a2be2;
+  background-color: #b685e4;
 }
 
 /* Galeria de fotos */
@@ -241,7 +241,7 @@ main section {
 
 .phone-number {
   font-size: 1.5em;
-  color: #ff00ff;
+  color: #8a2be2;
   font-weight: bold;
   margin: 10px 0;
 }
@@ -281,7 +281,7 @@ footer {
 }
 
 .newsletter-form button {
-  background: #ff00ff;
+  background: #8a2be2;
   border: none;
   padding: 10px 15px;
   border-radius: 5px;
