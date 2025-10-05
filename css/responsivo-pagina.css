@@ -46,6 +46,39 @@
     padding: 0 10px;
   }
 
+  .main-nav {
+    display: none;
+    width: 100%;
+    order: 1;
+  }
+
+  .user-actions {
+    order: 0;
+  }
+
+  .user-actions .heart-icon,
+  .user-actions .fa-heart {
+    display: none;
+  }
+
+  .user-actions .menu-icon {
+    display: block;
+    cursor: pointer;
+  }
+
+  .main-nav.open {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    border-top: 1px solid #333;
+    padding-top: 15px;
+  }
+
+  .main-nav li {
+    margin: 10px 0;
+  }
+
   .main-nav ul {
     flex-direction: column;
     align-items: center;

@@ -55,6 +55,10 @@ header .container {
   color: #9933ff;
 }
 
+.user-actions .menu-icon {
+  display: none;
+}
+
 .user-actions {
   display: flex;
   align-items: center;
