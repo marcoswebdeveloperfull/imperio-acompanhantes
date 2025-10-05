@@ -19,6 +19,29 @@
     padding: 10px 5px;
   }
 
+  .profile-section .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .details-info {
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .details-info h3,
+  .details-info .phone-number,
+  .details-info .location,
+  .details-info .description {
+    text-align: center;
+  }
+
+  .profile-card {
+    min-width: 80%;
+    width: 80%;
+    height: auto;
+  }
+
   .container {
     padding: 0 10px;
   }
