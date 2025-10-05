@@ -7,6 +7,12 @@
   --text-color: #ffffff;
   --text-light: #cccccc;
   --gray-bg: #222222;
+  --dark-background: #1a1a1a;
+  --dark-card-background: #2a2a2a;
+  --primary-purple: #8e2de2;
+  --secondary-pink: #4a00e0;
+  --text-light: #ffffff;
+  --text-muted-dark: #b0b0b0;
 }
 
 * {
@@ -17,9 +23,12 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color: var(--dark-bg);
-  color: var(--text-color);
+  background-color: var(--dark-background);
+  color: var(--text-light);
   line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .container {
@@ -336,30 +345,7 @@ body {
   color: var(--primary-purple);
 }
 
-.newsletter-form {
-  margin-top: 20px;
-  display: flex;
-  align-items: center;
-  border-radius: 5px;
-  overflow: hidden;
-  background-color: var(--dark-bg);
-}
 
-.newsletter-form input {
-  border: none;
-  background: transparent;
-  padding: 10px 15px;
-  color: var(--text-color);
-  outline: none;
-}
-
-.newsletter-form button {
-  background: linear-gradient(to right, #8a2be2, #9933ff);
-  border: none;
-  color: var(--text-color);
-  padding: 10px 15px;
-  cursor: pointer;
-}
 
 .footer-info {
   width: 50%;
@@ -369,46 +355,6 @@ body {
 
 .footer-info p {
   margin: 5px 0;
-}
-
-.contact-section {
-  padding: 40px 0;
-  text-align: center;
-}
-
-.contact-form {
-  max-width: 600px;
-  margin: 40px auto 20px auto;
-  text-align: left;
-}
-
-.form-group {
-  margin-bottom: 20px;
-}
-
-.form-group label {
-  display: block;
-  margin-bottom: 8px;
-  font-weight: bold;
-  color: var(--primary-purple);
-}
-
-.form-group input,
-.form-group textarea {
-  width: 100%;
-  padding: 12px;
-  border: 2px solid var(--primary-purple);
-  background-color: transparent;
-  color: var(--text-color);
-  border-radius: 8px;
-  font-size: 1rem;
-  box-sizing: border-box;
-}
-
-.form-group input:focus,
-.form-group textarea:focus {
-  outline: none;
-  border-color: var(--accent-pink);
 }
 
 .btn-send {
@@ -427,30 +373,6 @@ body {
 
 .btn-send:hover {
   background-color: var(--accent-pink);
-}
-
-.other-contacts {
-  margin-top: 40px;
-  text-align: center;
-}
-
-.other-contacts h4 {
-  color: var(--primary-purple);
-  font-size: 1.2rem;
-  margin-bottom: 15px;
-}
-
-.other-contacts .social-links a {
-  display: block;
-  margin: 10px 0;
-  color: var(--text-color);
-  text-decoration: none;
-  font-size: 1rem;
-  transition: color 0.3s ease;
-}
-
-.other-contacts .social-links a:hover {
-  color: var(--primary-purple);
 }
 
 .fas.fa-bars.menu-icon {

@@ -1,5 +1,3 @@
-/* Reset básico e fontes */
-
 body {
   font-family: sans-serif;
   margin: 0;
@@ -13,8 +11,6 @@ body {
   margin: 0 auto;
   padding: 0 20px;
 }
-
-/* --- Cabeçalho --- */
 
 header {
   background-color: #1a1a1a;
@@ -97,8 +93,6 @@ header .container {
   font-size: 1.2em;
 }
 
-/* --- Seções principais --- */
-
 main section {
   padding: 40px 0;
 }
@@ -129,8 +123,6 @@ main section {
 .title-divider::after {
   right: 0;
 }
-
-/* Cards de perfil e acompanhantes */
 
 .profile-section .container {
   display: flex;
@@ -171,8 +163,6 @@ main section {
   justify-content: space-between;
   align-items: center;
 }
-
-/* Seção de contato e botões */
 
 .contact-section .container {
   display: flex;
@@ -215,8 +205,6 @@ main section {
   background-color: #b685e4;
 }
 
-/* Galeria de fotos */
-
 .photo-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -230,8 +218,6 @@ main section {
   display: block;
   border-radius: 5px;
 }
-
-/* Detalhes da acompanhante */
 
 .therapist-details .details-card {
   display: flex;
@@ -278,7 +264,6 @@ main section {
   margin: 10px 0;
 }
 
-/* --- Footer --- */
 footer {
   background-color: #111;
   color: #aaa;
@@ -301,21 +286,4 @@ footer {
   color: #fff;
   font-size: 1.5em;
   margin-right: 15px;
-}
-
-.newsletter-form input {
-  background: #333;
-  border: none;
-  padding: 10px;
-  border-radius: 5px;
-  color: #fff;
-}
-
-.newsletter-form button {
-  background: #8a2be2;
-  border: none;
-  padding: 10px 15px;
-  border-radius: 5px;
-  color: #fff;
-  cursor: pointer;
 }

@@ -77,6 +77,12 @@
   .therapists-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .contact-container {
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+  }
     
   .footer-social,
   .footer-info {
@@ -106,5 +112,12 @@
   
   .therapists-grid {
     grid-template-columns: 1fr;
+  }
+
+  .other-contacts {
+    border-left: none;
+    border-top: 1px solid var(--primary-purple);
+    padding-top: 30px;
+    text-align: center;
   }
 }
