@@ -52,7 +52,7 @@ header .container {
 }
 
 .menu a:hover {
-  color: #ff00ff;
+  color: #9933ff;
 }
 
 .user-actions {
@@ -73,20 +73,21 @@ main section {
 }
 
 .title-divider {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
   font-size: 1.5em;
   font-weight: normal;
-  position: relative;
   margin-bottom: 40px;
 }
 
 .title-divider::before,
 .title-divider::after {
   content: "";
-  position: absolute;
-  top: 50%;
-  width: 35%;
   height: 2px;
+  margin: 0 15px;
+  flex-grow: 1;
   background: linear-gradient(to right, #8a2be2, #9933ff);
 }
 
@@ -286,10 +287,4 @@ footer {
   border-radius: 5px;
   color: #fff;
   cursor: pointer;
-}
-
-.developer-info {
-  margin-top: 20px;
-  font-size: 0.8em;
-  color: #ff00ff;
 }
