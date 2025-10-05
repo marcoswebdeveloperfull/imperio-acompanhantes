@@ -32,6 +32,33 @@ header .container {
   height: 50px;
 }
 
+#menu-toggle {
+  background: none;
+  border: none;
+  color: #e0e0e0;
+  font-size: 2em;
+  cursor: pointer;
+  display: none; 
+}
+
+#icone-fechar {
+  display: none;
+}
+
+#menu-toggle.menu-aberto #icone-abrir {
+  display: none;
+}
+
+#menu-mobile.menu-aberto {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+#menu-toggle.menu-aberto #icone-fechar {
+  display: block;
+}
+
 .main-nav ul {
   list-style: none;
   padding: 0;
