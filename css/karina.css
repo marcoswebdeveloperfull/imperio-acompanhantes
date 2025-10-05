@@ -32,18 +32,18 @@ header .container {
   height: 50px;
 }
 
-.menu ul {
+.main-nav ul {
   list-style: none;
   padding: 0;
   margin: 0;
   display: flex;
 }
 
-.menu li {
+.main-nav li {
   margin-left: 20px;
 }
 
-.menu a {
+.main-nav a {
   text-decoration: none;
   color: #e0e0e0;
   font-weight: bold;
@@ -51,7 +51,7 @@ header .container {
   transition: color 0.3s;
 }
 
-.menu a:hover {
+.main-nav a:hover {
   color: #9933ff;
 }
 
