@@ -37,6 +37,7 @@
     <meta
       property="og:image"
       content="https://www.imperioacompanhantes.com.br/img/logo-1.png"
+      loading="lazy"
     />
 
     <meta name="twitter:card" content="summary_large_image" />
@@ -51,9 +52,10 @@
     <meta
       name="twitter:image"
       content="https://www.imperioacompanhantes.com.br/img/logo-1.png"
+      loading="lazy"
     />
 
-    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+    <link rel="preload" as="image" href="./img/favicon.ico" type="image/x-icon" loading="lazy"/>
 
     <link rel="stylesheet" href="./css/taynah.css" />
     <link rel="stylesheet" href="./css/responsivo-pagina.css" />
@@ -67,7 +69,7 @@
     <header>
       <div class="container">
         <div class="logo">
-          <img src="./img/logo-1.png" alt="Império Acompanhantes Logo" />
+          <img src="./img/logo-1.png" alt="Império Acompanhantes Logo" loading="lazy"/>
         </div>
         <nav class="main-nav">
           <button id="menu-toggle" aria-expanded="false">
@@ -87,7 +89,7 @@
       <section class="profile-section">
         <div class="container profile-content">
           <div class="profile-card">
-            <img src="./img/taynah/taynah-2.jpg" alt="Taynah" />
+            <img src="./img/taynah/taynah-2.jpg" alt="Taynah" loading="lazy"/>
             <div class="overlay">
               <span class="name">Taynah</span>
             </div>
@@ -128,10 +130,10 @@
         <div class="container">
           <h2 class="title-divider">Fotos De Taynah</h2>
           <div class="photo-grid">
-            <img src="./img/taynah/taynah-3.jpg" alt="Taynah" />
-            <img src="./img/taynah/taynah-4.jpg" alt="Taynah" />
-            <img src="./img/taynah/taynah-5.jpg" alt="Taynah" />
-            <img src="./img/taynah/taynah-6.jpg" alt="Taynah" />
+            <img src="./img/taynah/taynah-3.jpg" alt="Taynah" loading="lazy"/>
+            <img src="./img/taynah/taynah-4.jpg" alt="Taynah" loading="lazy"/>
+            <img src="./img/taynah/taynah-5.jpg" alt="Taynah" loading="lazy"/>
+            <img src="./img/taynah/taynah-6.jpg" alt="Taynah" loading="lazy"/>
           </div>
         </div>
       </section>
@@ -156,6 +158,6 @@
       </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
   </body>
 </html>
